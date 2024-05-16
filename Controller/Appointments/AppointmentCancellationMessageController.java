@@ -16,11 +16,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
-/**
- * FXML Controller class
- *
- * @author sukhm
- */
+
 public class AppointmentCancellationMessageController implements Initializable {
 
     @FXML
