@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="340.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication10.Doctor_OptionsController">
+   <children>
+      <Label fx:id="DisplayLabel" layoutX="14.0" layoutY="14.0" prefHeight="28.0" prefWidth="286.0">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font></Label>
+      <Button fx:id="LogoutBtn" layoutX="416.0" layoutY="13.0" mnemonicParsing="false" onAction="#LogoutBtnClicked" text="Logout" />
+      <Button fx:id="ReportErrorsBtn" layoutX="326.0" layoutY="213.0" mnemonicParsing="false" onAction="#ReportErrorsBtnClicked" prefHeight="80.0" prefWidth="80.0">
+         <graphic>
+            <ImageView fitHeight="80.0" fitWidth="111.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/sukhm/Documents/ReportLogog.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="AppointmentBtn" layoutX="70.0" layoutY="77.0" maxWidth="80.0" mnemonicParsing="false" onAction="#AppointmentBtnClicked" prefHeight="80.0">
+         <graphic>
+            <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/sukhm/Documents/bookedin-logo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="MessageforadminBtn" layoutX="70.0" layoutY="213.0" mnemonicParsing="false" onAction="#MessageforadminBtnClicked" prefHeight="80.0" prefWidth="80.0">
+         <graphic>
+            <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/sukhm/Documents/message.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Separator layoutX="1.0" layoutY="199.0" prefWidth="500.0" />
+      <Separator layoutX="3.0" layoutY="63.0" prefWidth="500.0" />
+      <Label layoutX="27.0" layoutY="166.0" text="Appointment Details">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="313.0" text="Message For Admin">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="308.0" layoutY="313.0" text="Report Errors">
+         <font>
+            <Font name="Consolas" size="19.0" />
+         </font>
+      </Label>
+      <Separator layoutX="250.0" layoutY="64.0" orientation="VERTICAL" prefHeight="280.0" />
+      <Button fx:id="CheckMsgButton" layoutX="330.0" layoutY="76.0" mnemonicParsing="false" onAction="#CheckMsgButtonClicked" prefHeight="80.0" prefWidth="80.0">
+         <graphic>
+            <ImageView fitHeight="72.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/sukhm/Documents/CheckMessages.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Label layoutX="307.0" layoutY="166.0" text="Check Messages">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

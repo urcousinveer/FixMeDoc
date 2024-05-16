@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication10.User_OptionsController">
+   <children>
+      <Button fx:id="BookAppointmentBtn" layoutX="100.0" layoutY="42.0" mnemonicParsing="false" onAction="#BookAppointmentBtnClicked" prefHeight="100.0" prefWidth="100.0">
+         <graphic>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/sukhm/Documents/Hair-salon-booking-apps-what-should-you-know-about-them.jpg" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Separator layoutY="200.0" prefWidth="600.0" />
+      <Button fx:id="MyAppointmentBtn" layoutX="100.0" layoutY="241.0" mnemonicParsing="false" onAction="#MyAppointmentBtnClicked" prefHeight="100.0" prefWidth="100.0">
+         <graphic>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/sukhm/Documents/bookedin-logo.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Label layoutX="79.0" layoutY="152.0" text="Book Appointment">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="342.0" text="My Appointment">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="CancelAppointmentBtn" layoutX="400.0" layoutY="42.0" mnemonicParsing="false" onAction="#CancelAppointmentBtnClicked" prefHeight="100.0" prefWidth="100.0">
+         <graphic>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/sukhm/Documents/cancelAppointment.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="372.0" layoutY="152.0" text="Cancel Appointment">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="2.0" layoutY="400.0" prefWidth="600.0" />
+      <Separator layoutX="300.0" layoutY="1.0" orientation="VERTICAL" prefHeight="600.0" />
+      <Button fx:id="PrescriptionBtn" layoutX="399.0" layoutY="235.0" mnemonicParsing="false" onAction="#PrescriptionBtnClicked" prefHeight="95.0" prefWidth="95.0">
+         <graphic>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/sukhm/Documents/160px-Rx_symbol_border.svg.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="403.0" layoutY="342.0" text="Prescriptions">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutY="600.0" prefWidth="600.0" />
+      <Button fx:id="ReportBtn" layoutX="103.0" layoutY="440.0" mnemonicParsing="false" onAction="#ReportBtnClicked" prefHeight="100.0" prefWidth="100.0">
+         <graphic>
+            <ImageView fitHeight="95.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/sukhm/Documents/ReportLogog.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="106.0" layoutY="546.0" text="Report Error">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="11.0" layoutY="615.0" prefHeight="171.0" prefWidth="577.0" text="Contact US                                                                           Location&#10;                                                                                          &#10;Email: ClinicAB@email.com                                                 2445 Unit 4, AB Street&#10;Tel: 101-202-3003                                                                Samana, PB &#10;&#10;&#10;&#10;" />
+      <Button fx:id="ExitBtn" layoutX="413.0" layoutY="438.0" mnemonicParsing="false" onAction="#ExitBtnClicked" prefHeight="100.0" prefWidth="100.0">
+         <graphic>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/sukhm/Documents/logout.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="438.0" layoutY="546.0" text="Log Out">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

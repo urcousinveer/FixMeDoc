@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="310.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication10.Admin_FunctionsSelectionController">
+   <children>
+      <Button fx:id="UpdateScheduleBtn" layoutX="239.0" layoutY="182.0" mnemonicParsing="false" onAction="#UpdateScheduleBtnClicked" prefHeight="100.0" prefWidth="140.0" text="Update Schedules" />
+      <Button fx:id="UserLsitBtn" layoutX="239.0" layoutY="54.0" mnemonicParsing="false" onAction="#UserLsitBtnClicked" prefHeight="100.0" prefWidth="140.0" text="Users" />
+      <Button fx:id="ReadMessagesBtn" layoutX="42.0" layoutY="182.0" mnemonicParsing="false" onAction="#ReadMessagesBtnClicked" prefHeight="100.0" prefWidth="140.0" text="Read Messages" />
+      <Button fx:id="LogoutBtn" layoutX="432.0" layoutY="182.0" mnemonicParsing="false" onAction="#LogoutBtnClicked" prefHeight="100.0" prefWidth="140.0" text="Logout" />
+      <Button fx:id="AllAppointmentBtn" layoutX="42.0" layoutY="54.0" mnemonicParsing="false" onAction="#AllAppointmentClicked" prefHeight="100.0" prefWidth="140.0" text="All Appointments" />
+      <Button fx:id="AllSchedulesBtn" layoutX="432.0" layoutY="54.0" mnemonicParsing="false" onAction="#AllSchedulesBtnClicked" prefHeight="100.0" prefWidth="140.0" text="All Schedules" />
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="21.0" prefWidth="227.0" text="Welcome Admin John">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

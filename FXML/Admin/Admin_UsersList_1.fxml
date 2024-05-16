@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="580.0" prefWidth="416.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication10.Admin_UsersList_1Controller">
+   <children>
+      <Button fx:id="BackBtn" layoutX="1.0" layoutY="2.0" mnemonicParsing="false" onAction="#BackBtnClicked" text="Back" />
+      <Label layoutX="23.0" layoutY="49.0" text="MSP Number" />
+      <Label layoutX="27.0" layoutY="159.0" text="Doctor ID" />
+      <TextField fx:id="mspText" layoutX="123.0" layoutY="44.0" />
+      <TextField fx:id="DoctoridText" layoutX="123.0" layoutY="154.0" />
+      <Button fx:id="User_GetDetails" layoutX="177.0" layoutY="90.0" mnemonicParsing="false" onAction="#User_GetDetailsClicked" text="Get Details" />
+      <Button fx:id="Doctor_GetDetails" layoutX="181.0" layoutY="200.0" mnemonicParsing="false" onAction="#Doctor_GetDetailsClicked" text="Get Details" />
+      <Label fx:id="errorLabel" layoutX="9.0" layoutY="271.0" prefHeight="21.0" prefWidth="324.0" />
+      <TextArea fx:id="outputText" layoutX="12.0" layoutY="314.0" prefHeight="258.0" prefWidth="392.0" />
+   </children>
+</AnchorPane>

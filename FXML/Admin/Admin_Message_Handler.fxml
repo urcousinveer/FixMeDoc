@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="644.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication10.Admin_Message_HandlerController">
+   <children>
+      <Label layoutX="14.0" layoutY="55.0" prefHeight="26.0" prefWidth="227.0" text="Message From Doctor's">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="336.0" text="Error Messages">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="BactBtn" layoutX="2.0" layoutY="2.0" mnemonicParsing="false" onAction="#BackBtnClicked" text="Back" />
+      <TextArea fx:id="doctormessage_text" layoutX="14.0" layoutY="82.0" prefHeight="200.0" prefWidth="425.0" />
+      <TextArea fx:id="errorMessage_text" layoutX="14.0" layoutY="367.0" prefHeight="200.0" prefWidth="425.0" />
+      <Button fx:id="Replybtn" layoutX="268.0" layoutY="291.0" mnemonicParsing="false" onAction="#ReplybtnClicked" text="Reply To Doctor" />
+      <Button fx:id="clearmessagesBtn" layoutX="151.0" layoutY="576.0" mnemonicParsing="false" onAction="#clearmessagesBtnClicked" text="Clear All Error Messages" />
+      <Button fx:id="clearmsgBtn" layoutX="56.0" layoutY="291.0" mnemonicParsing="false" onAction="#clearmsgBtnClicked" text="Clear All Messages" />
+   </children>
+</AnchorPane>

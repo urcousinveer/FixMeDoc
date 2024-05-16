@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="500.0" scaleShape="false" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication10.HomePageController">
+   <children>
+      <Button fx:id="UserBtn" alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="35.0" mnemonicParsing="false" onAction="#UserBtnClicked" prefHeight="110.0" prefWidth="100.0">
+         <graphic>
+            <ImageView fitHeight="95.0" fitWidth="85.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/sukhm/Documents/NetBeansProjects/user.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="DoctorBtn" alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="230.0" mnemonicParsing="false" onAction="#DoctorBtnClicked" prefHeight="100.0" prefWidth="100.0">
+         <graphic>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/sukhm/Documents/NetBeansProjects/main-qimg-59f572e37e50dc2d6daaa819e123012f.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="AddminBtn" alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="430.0" mnemonicParsing="false" onAction="#AddminBtnClicked" prefHeight="100.0" prefWidth="100.0">
+         <graphic>
+            <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/sukhm/Documents/NetBeansProjects/Admin.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Separator layoutY="200.0" prefHeight="0.0" prefWidth="500.0" />
+      <Separator layoutX="5.0" layoutY="400.0" prefHeight="3.0" prefWidth="500.0" />
+      <Label layoutX="231.0" layoutY="152.0" text="User">
+         <font>
+            <Font name="Corbel" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="547.0" text="Admin">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="348.0" text="Doctor">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
